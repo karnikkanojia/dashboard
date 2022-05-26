@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
@@ -17,7 +17,6 @@ import {
   Kanban,
   Area,
   Bar,
-  Pie,
   Financial,
   ColorPicker,
   ColorMapping,
@@ -84,7 +83,6 @@ const App = () => {
                 <Route path="/line" element={<Line />} />
                 <Route path="/area" element={<Area />} />
                 <Route path="/bar" element={<Bar />} />
-                <Route path="/pie" element={<Pie />} />
                 <Route path="/financial" element={<Financial />} />
                 <Route path="/color-mapping" element={<ColorMapping />} />
                 <Route path="/pyramid" element={<Pyramid />} />
